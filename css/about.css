@@ -108,17 +108,17 @@ header nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-top: 1px dotted black;
+  border-top: 1px dashed black;
 }
 
 .sub-section {
   height: 420px;
   width: 372px;
-  border: 1px solid black;
+  border-bottom: 1px dashed black;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 10px auto;
+  margin: 36px auto;
 }
 
 .sub-section img {
@@ -150,7 +150,8 @@ button:hover {
 }
 
 .bottom-section {
-  padding: 48px 16px;
+  padding: 0 16px;
+  margin: 10px auto 44px auto;
 }
 
 footer {
