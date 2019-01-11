@@ -73,6 +73,22 @@ p {
 
 header {
 	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 48px auto;
+}
+
+header nav {
+	width: 643px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+header nav a {
+	text-decoration: none;
+	color: black;
 }
 
 .top-content {
