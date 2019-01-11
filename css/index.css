@@ -64,18 +64,23 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+		font-weight: normal;
+}
+
+h2 {
+	font-weight: bold;
 }
 
 .container {
     width: 800px;
-    margin: 20px auto;
+    margin: 26px auto;
 }
 
 header {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	margin: 48px auto;
+	margin-bottom: 48px;
 }
 
 header nav {
@@ -95,7 +100,7 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 25px auto;
     border-bottom: 1px dashed black;
 }
 
@@ -124,12 +129,51 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box.a {
+	background-color: teal;
+}
+
+.box.b {
+	background-color: gold;
+}
+
+.box.c {
+	background-color: cadetblue;
+}
+
+.box.d {
+	background-color: coral
+}
+
+.box.e {
+	background-color: crimson;
+}
+
+.box.f {
+	background-color: forestgreen;
+}
+
+.box.g {
+	background-color: darkorchid;
+}
+
+.box.h {
+	background-color: hotpink;
+}
+
+.box.i {
+	background-color: indigo;
+}
+
+.box.j {
+	background-color: dodgerblue;
 }
 
 .bottom-content {
