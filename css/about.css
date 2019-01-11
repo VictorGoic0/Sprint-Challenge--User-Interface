@@ -69,6 +69,7 @@ p {
 
 h2 {
 	font-weight: bold;
+  font-size: 20px;
 }
 
 .container {
@@ -112,13 +113,14 @@ header nav a {
 }
 
 .sub-section {
-  height: 420px;
+  height: 440px;
   width: 372px;
   border-bottom: 1px dashed black;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: 36px auto;
+  padding-bottom: 10px;
 }
 
 .sub-section img {
@@ -132,7 +134,7 @@ button {
 	background-color: white;
 	height: 40px;
 	width: 152px;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 @keyframes colorchange {
