@@ -129,12 +129,13 @@ header nav a {
 }
 
 button {
-	padding: 10px 38px;
+  padding: auto;
 	border: 2px solid black;
 	background-color: white;
 	height: 40px;
 	width: 152px;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 @keyframes colorchange {
