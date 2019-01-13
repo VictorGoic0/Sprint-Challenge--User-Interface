@@ -71,20 +71,37 @@ h2 {
 	font-weight: bold;
 }
 
+body{
+	background-color: #8890b3;
+}
+
 .container {
     width: 800px;
     margin: 26px auto;
+		background-color: white;
+		border: 2px solid black;
+		border-radius: 5px;
+		box-sizing: content-box;
+}
+
+.top-img {
+	border-bottom: 2px solid black;
 }
 
 header {
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: center;
 	margin-bottom: 48px;
+	background-color: #c1c1c1;
+	height: 8%;
+	align-items: center;
+	border-bottom: 2px solid black;
 }
 
 header nav {
 	width: 643px;
+	height: 50%;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
